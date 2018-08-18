@@ -15,5 +15,10 @@ function forLoop(array) {
    return "done"
  }
  
-
+function doWhileLoop(array) {
+      function incrementVariable() {
+      i = i + 1;
+    } while array.length > 0 && incrementVariable();
+  return array 
+ }
  
